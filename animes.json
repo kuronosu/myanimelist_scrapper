@@ -1,0 +1,605 @@
+{
+    "top_animes": [
+        {
+            "Url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+            "Rank": 1,
+            "Name": "Fullmetal Alchemist: Brotherhood",
+            "Information": {
+                "type": "TV",
+                "episodes": 64,
+                "emitted_between": "Apr 2009 - Jul 2010",
+                "members": 2821113
+            },
+            "Score": 9.15
+        },
+        {
+            "Url": "https://myanimelist.net/anime/28977/Gintama°",
+            "Rank": 2,
+            "Name": "Gintama°",
+            "Information": {
+                "type": "TV",
+                "episodes": 51,
+                "emitted_between": "Apr 2015 - Mar 2016",
+                "members": 518872
+            },
+            "Score": 9.09
+        },
+        {
+            "Url": "https://myanimelist.net/anime/9253/Steins_Gate",
+            "Rank": 3,
+            "Name": "Steins;Gate",
+            "Information": {
+                "type": "TV",
+                "episodes": 24,
+                "emitted_between": "Apr 2011 - Sep 2011",
+                "members": 2191157
+            },
+            "Score": 9.09
+        },
+        {
+            "Url": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2",
+            "Rank": 4,
+            "Name": "Shingeki no Kyojin Season 3 Part 2",
+            "Information": {
+                "type": "TV",
+                "episodes": 10,
+                "emitted_between": "Apr 2019 - Jul 2019",
+                "members": 1764910
+            },
+            "Score": 9.08
+        },
+        {
+            "Url": "https://myanimelist.net/anime/48583/Shingeki_no_Kyojin__The_Final_Season_Part_2",
+            "Rank": 5,
+            "Name": "Shingeki no Kyojin: The Final Season Part 2",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Jan 2022 - Apr 2022",
+                "members": 746562
+            },
+            "Score": 9.07
+        },
+        {
+            "Url": "https://myanimelist.net/anime/9969/Gintama",
+            "Rank": 6,
+            "Name": "Gintama'",
+            "Information": {
+                "type": "TV",
+                "episodes": 51,
+                "emitted_between": "Apr 2011 - Mar 2012",
+                "members": 456738
+            },
+            "Score": 9.06
+        },
+        {
+            "Url": "https://myanimelist.net/anime/39486/Gintama__The_Final",
+            "Rank": 7,
+            "Name": "Gintama: The Final",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Jan 2021 - Jan 2021",
+                "members": 94676
+            },
+            "Score": 9.05
+        },
+        {
+            "Url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
+            "Rank": 8,
+            "Name": "Hunter x Hunter (2011)",
+            "Information": {
+                "type": "TV",
+                "episodes": 148,
+                "emitted_between": "Oct 2011 - Sep 2014",
+                "members": 2300348
+            },
+            "Score": 9.05
+        },
+        {
+            "Url": "https://myanimelist.net/anime/42938/Fruits_Basket__The_Final",
+            "Rank": 9,
+            "Name": "Fruits Basket: The Final",
+            "Information": {
+                "type": "TV",
+                "episodes": 13,
+                "emitted_between": "Apr 2021 - Jun 2021",
+                "members": 325962
+            },
+            "Score": 9.04
+        },
+        {
+            "Url": "https://myanimelist.net/anime/15417/Gintama__Enchousen",
+            "Rank": 10,
+            "Name": "Gintama': Enchousen",
+            "Information": {
+                "type": "TV",
+                "episodes": 13,
+                "emitted_between": "Oct 2012 - Mar 2013",
+                "members": 274659
+            },
+            "Score": 9.04
+        },
+        {
+            "Url": "https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu",
+            "Rank": 11,
+            "Name": "Ginga Eiyuu Densetsu",
+            "Information": {
+                "type": "OVA",
+                "episodes": 110,
+                "emitted_between": "Jan 1988 - Mar 1997",
+                "members": 274399
+            },
+            "Score": 9.03
+        },
+        {
+            "Url": "https://myanimelist.net/anime/34096/Gintama",
+            "Rank": 12,
+            "Name": "Gintama.",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Jan 2017 - Mar 2017",
+                "members": 261202
+            },
+            "Score": 8.99
+        },
+        {
+            "Url": "https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season",
+            "Rank": 13,
+            "Name": "3-gatsu no Lion 2nd Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 22,
+                "emitted_between": "Oct 2017 - Mar 2018",
+                "members": 343280
+            },
+            "Score": 8.96
+        },
+        {
+            "Url": "https://myanimelist.net/anime/28851/Koe_no_Katachi",
+            "Rank": 14,
+            "Name": "Koe no Katachi",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Sep 2016 - Sep 2016",
+                "members": 1908036
+            },
+            "Score": 8.96
+        },
+        {
+            "Url": "https://myanimelist.net/anime/37987/Violet_Evergarden_Movie",
+            "Rank": 15,
+            "Name": "Violet Evergarden Movie",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Sep 2020 - Sep 2020",
+                "members": 410638
+            },
+            "Score": 8.96
+        },
+        {
+            "Url": "https://myanimelist.net/anime/918/Gintama",
+            "Rank": 16,
+            "Name": "Gintama",
+            "Information": {
+                "type": "TV",
+                "episodes": 201,
+                "emitted_between": "Apr 2006 - Mar 2010",
+                "members": 925447
+            },
+            "Score": 8.95
+        },
+        {
+            "Url": "https://myanimelist.net/anime/4181/Clannad__After_Story",
+            "Rank": 17,
+            "Name": "Clannad: After Story",
+            "Information": {
+                "type": "TV",
+                "episodes": 24,
+                "emitted_between": "Oct 2008 - Mar 2009",
+                "members": 1063153
+            },
+            "Score": 8.94
+        },
+        {
+            "Url": "https://myanimelist.net/anime/15335/Gintama_Movie_2__Kanketsu-hen_-_Yorozuya_yo_Eien_Nare",
+            "Rank": 18,
+            "Name": "Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Jul 2013 - Jul 2013",
+                "members": 205587
+            },
+            "Score": 8.93
+        },
+        {
+            "Url": "https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2",
+            "Rank": 19,
+            "Name": "Code Geass: Hangyaku no Lelouch R2",
+            "Information": {
+                "type": "TV",
+                "episodes": 25,
+                "emitted_between": "Apr 2008 - Sep 2008",
+                "members": 1536586
+            },
+            "Score": 8.91
+        },
+        {
+            "Url": "https://myanimelist.net/anime/47778/Kimetsu_no_Yaiba__Yuukaku-hen",
+            "Rank": 20,
+            "Name": "Kimetsu no Yaiba: Yuukaku-hen",
+            "Information": {
+                "type": "TV",
+                "episodes": 11,
+                "emitted_between": "Dec 2021 - Feb 2022",
+                "members": 762103
+            },
+            "Score": 8.9
+        },
+        {
+            "Url": "https://myanimelist.net/anime/35247/Owarimonogatari_2nd_Season",
+            "Rank": 21,
+            "Name": "Owarimonogatari 2nd Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 7,
+                "emitted_between": "Aug 2017 - Aug 2017",
+                "members": 340805
+            },
+            "Score": 8.9
+        },
+        {
+            "Url": "https://myanimelist.net/anime/37491/Gintama__Shirogane_no_Tamashii-hen_-_Kouhan-sen",
+            "Rank": 22,
+            "Name": "Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+            "Information": {
+                "type": "TV",
+                "episodes": 14,
+                "emitted_between": "Jul 2018 - Oct 2018",
+                "members": 158416
+            },
+            "Score": 8.89
+        },
+        {
+            "Url": "https://myanimelist.net/anime/32281/Kimi_no_Na_wa",
+            "Rank": 23,
+            "Name": "Kimi no Na wa.",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Aug 2016 - Aug 2016",
+                "members": 2297137
+            },
+            "Score": 8.87
+        },
+        {
+            "Url": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
+            "Rank": 24,
+            "Name": "Shingeki no Kyojin: The Final Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 16,
+                "emitted_between": "Dec 2020 - Mar 2021",
+                "members": 1517106
+            },
+            "Score": 8.87
+        },
+        {
+            "Url": "https://myanimelist.net/anime/19/Monster",
+            "Rank": 25,
+            "Name": "Monster",
+            "Information": {
+                "type": "TV",
+                "episodes": 74,
+                "emitted_between": "Apr 2004 - Sep 2005",
+                "members": 820298
+            },
+            "Score": 8.82
+        },
+        {
+            "Url": "https://myanimelist.net/anime/36838/Gintama__Shirogane_no_Tamashii-hen",
+            "Rank": 26,
+            "Name": "Gintama.: Shirogane no Tamashii-hen",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Jan 2018 - Mar 2018",
+                "members": 171879
+            },
+            "Score": 8.82
+        },
+        {
+            "Url": "https://myanimelist.net/anime/31758/Kizumonogatari_III__Reiketsu-hen",
+            "Rank": 27,
+            "Name": "Kizumonogatari III: Reiketsu-hen",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Jan 2017 - Jan 2017",
+                "members": 392963
+            },
+            "Score": 8.81
+        },
+        {
+            "Url": "https://myanimelist.net/anime/37510/Mob_Psycho_100_II",
+            "Rank": 28,
+            "Name": "Mob Psycho 100 II",
+            "Information": {
+                "type": "TV",
+                "episodes": 13,
+                "emitted_between": "Jan 2019 - Apr 2019",
+                "members": 1192824
+            },
+            "Score": 8.81
+        },
+        {
+            "Url": "https://myanimelist.net/anime/44074/Shiguang_Dailiren",
+            "Rank": 29,
+            "Name": "Shiguang Dailiren",
+            "Information": {
+                "type": "ONA",
+                "episodes": 11,
+                "emitted_between": "Apr 2021 - Jul 2021",
+                "members": 190683
+            },
+            "Score": 8.81
+        },
+        {
+            "Url": "https://myanimelist.net/anime/32935/Haikyuu__Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou",
+            "Rank": 30,
+            "Name": "Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+            "Information": {
+                "type": "TV",
+                "episodes": 10,
+                "emitted_between": "Oct 2016 - Dec 2016",
+                "members": 1007297
+            },
+            "Score": 8.8
+        },
+        {
+            "Url": "https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi",
+            "Rank": 31,
+            "Name": "Sen to Chihiro no Kamikakushi",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Jul 2001 - Jul 2001",
+                "members": 1572653
+            },
+            "Score": 8.79
+        },
+        {
+            "Url": "https://myanimelist.net/anime/17074/Monogatari_Series__Second_Season",
+            "Rank": 32,
+            "Name": "Monogatari Series: Second Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 26,
+                "emitted_between": "Jul 2013 - Dec 2013",
+                "members": 599912
+            },
+            "Score": 8.78
+        },
+        {
+            "Url": "https://myanimelist.net/anime/40682/Kingdom_3rd_Season",
+            "Rank": 33,
+            "Name": "Kingdom 3rd Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 26,
+                "emitted_between": "Apr 2020 - Oct 2021",
+                "members": 64372
+            },
+            "Score": 8.78
+        },
+        {
+            "Url": "https://myanimelist.net/anime/1/Cowboy_Bebop",
+            "Rank": 34,
+            "Name": "Cowboy Bebop",
+            "Information": {
+                "type": "TV",
+                "episodes": 26,
+                "emitted_between": "Apr 1998 - Apr 1999",
+                "members": 1575883
+            },
+            "Score": 8.76
+        },
+        {
+            "Url": "https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2",
+            "Rank": 35,
+            "Name": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Oct 2021 - Dec 2021",
+                "members": 537728
+            },
+            "Score": 8.76
+        },
+        {
+            "Url": "https://myanimelist.net/anime/46102/Odd_Taxi",
+            "Rank": 36,
+            "Name": "Odd Taxi",
+            "Information": {
+                "type": "TV",
+                "episodes": 13,
+                "emitted_between": "Apr 2021 - Jun 2021",
+                "members": 280785
+            },
+            "Score": 8.76
+        },
+        {
+            "Url": "https://myanimelist.net/anime/40834/Ousama_Ranking",
+            "Rank": 37,
+            "Name": "Ousama Ranking",
+            "Information": {
+                "type": "TV",
+                "episodes": 23,
+                "emitted_between": "Oct 2021 - Mar 2022",
+                "members": 335540
+            },
+            "Score": 8.75
+        },
+        {
+            "Url": "https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen",
+            "Rank": 38,
+            "Name": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Jan 2017 - Mar 2017",
+                "members": 166424
+            },
+            "Score": 8.75
+        },
+        {
+            "Url": "https://myanimelist.net/anime/24701/Mushishi_Zoku_Shou_2nd_Season",
+            "Rank": 39,
+            "Name": "Mushishi Zoku Shou 2nd Season",
+            "Information": {
+                "type": "TV",
+                "episodes": 10,
+                "emitted_between": "Oct 2014 - Dec 2014",
+                "members": 232397
+            },
+            "Score": 8.74
+        },
+        {
+            "Url": "https://myanimelist.net/anime/263/Hajime_no_Ippo",
+            "Rank": 40,
+            "Name": "Hajime no Ippo",
+            "Information": {
+                "type": "TV",
+                "episodes": 75,
+                "emitted_between": "Oct 2000 - Mar 2002",
+                "members": 468200
+            },
+            "Score": 8.74
+        },
+        {
+            "Url": "https://myanimelist.net/anime/37521/Vinland_Saga",
+            "Rank": 41,
+            "Name": "Vinland Saga",
+            "Information": {
+                "type": "TV",
+                "episodes": 24,
+                "emitted_between": "Jul 2019 - Dec 2019",
+                "members": 1051854
+            },
+            "Score": 8.73
+        },
+        {
+            "Url": "https://myanimelist.net/anime/33050/Fate_stay_night_Movie__Heavens_Feel_-_III_Spring_Song",
+            "Rank": 42,
+            "Name": "Fate/stay night Movie: Heaven's Feel - III. Spring Song",
+            "Information": {
+                "type": "Movie",
+                "episodes": 1,
+                "emitted_between": "Aug 2020 - Aug 2020",
+                "members": 260786
+            },
+            "Score": 8.72
+        },
+        {
+            "Url": "https://myanimelist.net/anime/48569/86_Part_2",
+            "Rank": 43,
+            "Name": "86 Part 2",
+            "Information": {
+                "type": "TV",
+                "episodes": 12,
+                "emitted_between": "Oct 2021 - Mar 2022",
+                "members": 266314
+            },
+            "Score": 8.71
+        },
+        {
+            "Url": "https://myanimelist.net/anime/2921/Ashita_no_Joe_2",
+            "Rank": 44,
+            "Name": "Ashita no Joe 2",
+            "Information": {
+                "type": "TV",
+                "episodes": 47,
+                "emitted_between": "Oct 1980 - Aug 1981",
+                "members": 40273
+            },
+            "Score": 8.71
+        },
+        {
+            "Url": "https://myanimelist.net/anime/40434/Mo_Dao_Zu_Shi__Wanjie_Pian",
+            "Rank": 45,
+            "Name": "Mo Dao Zu Shi: Wanjie Pian",
+            "Information": {
+                "type": "ONA",
+                "episodes": 12,
+                "emitted_between": "Aug 2021 - Oct 2021",
+                "members": 52441
+            },
+            "Score": 8.71
+        },
+        {
+            "Url": "https://myanimelist.net/anime/21939/Mushishi_Zoku_Shou",
+            "Rank": 46,
+            "Name": "Mushishi Zoku Shou",
+            "Information": {
+                "type": "TV",
+                "episodes": 10,
+                "emitted_between": "Apr 2014 - Jun 2014",
+                "members": 264797
+            },
+            "Score": 8.71
+        },
+        {
+            "Url": "https://myanimelist.net/anime/44/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Tsuioku-hen",
+            "Rank": 47,
+            "Name": "Rurouni Kenshin: Meiji Kenkaku Romantan - Tsuioku-hen",
+            "Information": {
+                "type": "OVA",
+                "episodes": 4,
+                "emitted_between": "Feb 1999 - Sep 1999",
+                "members": 253847
+            },
+            "Score": 8.71
+        },
+        {
+            "Url": "https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch",
+            "Rank": 48,
+            "Name": "Code Geass: Hangyaku no Lelouch",
+            "Information": {
+                "type": "TV",
+                "episodes": 25,
+                "emitted_between": "Oct 2006 - Jul 2007",
+                "members": 1947547
+            },
+            "Score": 8.7
+        },
+        {
+            "Url": "https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV",
+            "Rank": 49,
+            "Name": "Jujutsu Kaisen (TV)",
+            "Information": {
+                "type": "TV",
+                "episodes": 24,
+                "emitted_between": "Oct 2020 - Mar 2021",
+                "members": 1758823
+            },
+            "Score": 8.7
+        },
+        {
+            "Url": "https://myanimelist.net/anime/245/Great_Teacher_Onizuka",
+            "Rank": 50,
+            "Name": "Great Teacher Onizuka",
+            "Information": {
+                "type": "TV",
+                "episodes": 43,
+                "emitted_between": "Jun 1999 - Sep 2000",
+                "members": 707758
+            },
+            "Score": 8.69
+        }
+    ],
+    "animes": []
+}
