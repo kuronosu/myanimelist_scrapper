@@ -2,14 +2,18 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
+	"log"
+	"os"
+	"strconv"
 
 	"github.com/kuronosu/myanimelist_scrapper/scraper"
 )
 
 type DataContainer struct {
-	TopAnimes []scraper.TopAnime     `json:"top_animes"`
-	Animes    []scraper.AnimeDetails `json:"animes"`
+	TopAnimes []scraper.TopAnime              `json:"top_animes"`
+	Animes    map[string]scraper.AnimeDetails `json:"animes"`
 }
 
 func SaveDataContainer(filename string, data DataContainer) error {
@@ -17,7 +21,7 @@ func SaveDataContainer(filename string, data DataContainer) error {
 	if err != nil {
 		return err
 	}
-	return ioutil.WriteFile("animes.json", b, 0644)
+	return ioutil.WriteFile(filename, b, 0644)
 }
 
 func LoadDataContainer(filename string) (DataContainer, error) {
@@ -31,15 +35,35 @@ func LoadDataContainer(filename string) (DataContainer, error) {
 
 // }
 
-func getDataContainerFromNetwork() DataContainer {
+func getDataContainerFromNetwork(page uint) DataContainer {
+	topAnimes := scraper.ScrapeTopAnimesByPage(page)
+	urls := make([]string, len(topAnimes))
+	for i, v := range topAnimes {
+		urls[i] = v.Url
+	}
 	return DataContainer{
-		TopAnimes: scraper.ScrapeTopAnimes(1),
-		Animes:    []scraper.AnimeDetails{},
+		TopAnimes: topAnimes,
+		Animes:    scraper.ScrapeAnimes(urls),
 	}
 }
 
+func ScrapeAndSavePage(page uint) {
+	data := getDataContainerFromNetwork(uint(page))
+	SaveDataContainer(fmt.Sprintf("animes_%d.json", page), data)
+}
+
 func main() {
-	// animes := scraper.ScrapeTopAnimes(1)
-	data := getDataContainerFromNetwork()
-	SaveDataContainer("top-animes.json", data)
+	if len(os.Args) <= 1 {
+		log.Fatalln("Page to scrape required [0 - n]")
+	}
+	page, err := strconv.ParseUint(os.Args[1], 10, 32)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	data := getDataContainerFromNetwork(uint(page))
+	SaveDataContainer(fmt.Sprintf("animes_%d.json", page), data)
+	// for i := 101; i < 200; i++ {
+	// 	ScrapeAndSavePage(uint(i))
+	// 	fmt.Println()
+	// }
 }
