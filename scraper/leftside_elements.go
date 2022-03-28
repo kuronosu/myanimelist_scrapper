@@ -9,6 +9,18 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
+func removeMultiple(lst []string, items ...string) []string {
+	newL := make([]string, 0)
+	for _, el := range lst {
+		for _, it := range items {
+			if el != it {
+				newL = append(newL, el)
+			}
+		}
+	}
+	return newL
+}
+
 func getLeftsideElements(contentWrapper *colly.HTMLElement) LeftsideElements {
 	leftsideElements := make([]*colly.HTMLElement, 0)
 	contentWrapper.ForEach("div.leftside>div.spaceit_pad", func(i int, el *colly.HTMLElement) {
@@ -60,7 +72,9 @@ func (lse LeftsideElements) getElementList(element string, extraText ...string) 
 				return tmp
 			}
 			extraText = append(extraText, element+":")
-			return SplitAndTrim(lse._getElement(el, extraText...), ",")
+			list := SplitAndTrim(lse._getElement(el, extraText...), ",")
+			list = removeMultiple(list, "None found", "add some")
+			return list
 		}
 	}
 	// // idx = len(lse) - idx - 1
@@ -145,7 +159,11 @@ func (lse LeftsideElements) Theme() string {
 }
 
 func (lse LeftsideElements) Genres() []string {
-	return lse.getElementList("Genres")
+	genres := lse.getElementList("Genres")
+	if genre := lse.getElement("Genre"); genre != "" {
+		return append(genres, genre)
+	}
+	return genres
 }
 
 func (lse LeftsideElements) Source() string {

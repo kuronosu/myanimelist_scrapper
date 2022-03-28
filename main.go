@@ -21,7 +21,7 @@ func SaveDataContainer(filename string, data DataContainer) error {
 	if err != nil {
 		return err
 	}
-	return ioutil.WriteFile(filename, b, 0644)
+	return ioutil.WriteFile("data/"+filename, b, 0644)
 }
 
 func LoadDataContainer(filename string) (DataContainer, error) {
@@ -45,7 +45,9 @@ func getDataContainerFromNetwork(page uint) DataContainer {
 
 func ScrapeAndSavePage(page uint) {
 	data := getDataContainerFromNetwork(uint(page))
-	SaveDataContainer(fmt.Sprintf("data/animes_%d.json", page), data)
+	if err := SaveDataContainer(fmt.Sprintf("animes_%d.json", page), data); err != nil {
+		log.Println("\033[31mError\033[0m ", err)
+	}
 }
 
 func main() {
