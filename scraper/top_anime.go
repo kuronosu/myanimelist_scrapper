@@ -1,7 +1,6 @@
 package scraper
 
 import (
-	"fmt"
 	"log"
 	"strconv"
 	"strings"
@@ -10,10 +9,10 @@ import (
 )
 
 type TopAnimeInformation struct {
-	Type           string `json:"type"`
-	Episodes       int    `json:"episodes"`
-	EmittedBetween string `json:"emitted_between"`
-	Members        int    `json:"members"`
+	Type     string `json:"type"`
+	Episodes int    `json:"episodes"`
+	Aired    string `json:"aired"`
+	Members  int    `json:"members"`
 }
 
 type TopAnime struct {
@@ -48,10 +47,10 @@ func parseTopAnimeInformation(data string) TopAnimeInformation {
 	membersInt, _ := parseMembers(members)
 	emitted = strings.TrimSpace(emitted)
 	return TopAnimeInformation{
-		Type:           typ,
-		Episodes:       eps,
-		EmittedBetween: emitted,
-		Members:        membersInt,
+		Type:     typ,
+		Episodes: eps,
+		Aired:    emitted,
+		Members:  membersInt,
 	}
 }
 
@@ -64,11 +63,12 @@ func ScrapeTopAnimesByPage(page uint) []TopAnime {
 	// })
 
 	c.OnError(func(r *colly.Response, err error) {
-		log.Println("Something went wrong: ", r.Request.URL, err)
+		log.Println("\033[31mSomething went wrong\033[0m: ", r.Request.URL, err)
+		log.Fatal()
 	})
 
 	c.OnResponse(func(r *colly.Response) {
-		fmt.Println("Visited", r.Request.URL)
+		log.Println("\033[32mVisited\033[0m", r.Request.URL)
 	})
 
 	c.OnHTML("table.top-ranking-table>tbody", func(e *colly.HTMLElement) {
