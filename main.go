@@ -45,7 +45,7 @@ func getDataContainerFromNetwork(page uint) DataContainer {
 
 func ScrapeAndSavePage(page uint) {
 	data := getDataContainerFromNetwork(uint(page))
-	SaveDataContainer(fmt.Sprintf("animes_%d.json", page), data)
+	SaveDataContainer(fmt.Sprintf("data/animes_%d.json", page), data)
 }
 
 func main() {
@@ -58,7 +58,7 @@ func main() {
 	}
 	data := getDataContainerFromNetwork(uint(page))
 	SaveDataContainer(fmt.Sprintf("animes_%d.json", page), data)
-	// for i := 101; i < 200; i++ {
+	// for i := 0; i < 200; i++ {
 	// 	ScrapeAndSavePage(uint(i))
 	// 	fmt.Println()
 	// }
