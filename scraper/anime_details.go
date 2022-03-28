@@ -29,7 +29,7 @@ type AnimeDetails struct {
 	Rating      string   `json:"rating"`
 
 	Score      float32 `json:"score"`
-	ScoredBy   int     `json:"scoredBy"`
+	ScoredBy   int     `json:"scored_by"`
 	Ranked     int     `json:"ranked"`
 	Popularity int     `json:"popularity"`
 	Members    int     `json:"members"`

@@ -16,12 +16,11 @@ type TopAnimeInformation struct {
 }
 
 type TopAnime struct {
-	Url         string              // ✔
-	Rank        uint                // ✔
-	Name        string              // ✔
-	Information TopAnimeInformation // ✔
-	Score       float32             // ✔
-	// Img         string           // ✘
+	Url         string              `json:"url"`         // ✔
+	Rank        uint                `json:"rank"`        // ✔
+	Name        string              `json:"name"`        // ✔
+	Information TopAnimeInformation `json:"information"` // ✔
+	Score       float32             `json:"score"`       // ✔
 }
 
 func splitInformation(information string) (string, string, string) {
