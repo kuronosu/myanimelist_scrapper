@@ -9,13 +9,20 @@ import (
 	"github.com/gocolly/colly/v2"
 )
 
+func contains(s []string, e string) bool {
+	for _, a := range s {
+		if a == e {
+			return true
+		}
+	}
+	return false
+}
+
 func removeMultiple(lst []string, items ...string) []string {
 	newL := make([]string, 0)
 	for _, el := range lst {
-		for _, it := range items {
-			if el != it {
-				newL = append(newL, el)
-			}
+		if !contains(items, el) {
+			newL = append(newL, el)
 		}
 	}
 	return newL
